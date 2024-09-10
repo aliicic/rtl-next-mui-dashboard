@@ -81,7 +81,7 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
           >
             {itemIcon}
           </ListItemIcon>
-          <ListItemText>
+          <ListItemText sx={{textAlign:'right'}}>
             <>{item.title}</>
           </ListItemText>
         </ListItemButton>

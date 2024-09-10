@@ -11,7 +11,154 @@ const TypographyPage = () => {
 
       <Grid container spacing={3}>
         <Grid item sm={12}>
-          <DashboardCard title="Default Text">
+        <DashboardCard title="persian font">
+            <Grid container spacing={3}>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h1">تگ h1</Typography>
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 30 | line-height: 45 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h2">h2 تگ</Typography>
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 24 | line-height: 36 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h3">h3 تگ</Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 21 | line-height: 31.5 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h4">h4 تگ</Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 18 | line-height: 27 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h5">h5 تگ</Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 16 | line-height: 24 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="h6">h6 تگ</Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 14 | line-height: 21 | font weight: 500
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="subtitle1">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 16 | line-height: 28 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="subtitle2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 14 | line-height: 21 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="body1">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 16 | line-height: 24 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="body2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 14 | line-height: 20 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="caption">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 12 | line-height: 19 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+              <Grid item sm={12}>
+                <BlankCard>
+                  <CardContent>
+                    <Typography variant="overline">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </Typography>
+
+                    <Typography variant="body1" color="textSecondary">
+                      font size: 12 | line-height: 31 | font weight: 400
+                    </Typography>
+                  </CardContent>
+                </BlankCard>
+              </Grid>
+            </Grid>
+
+          </DashboardCard>
+          <DashboardCard title="latin font">
             <Grid container spacing={3}>
               <Grid item sm={12}>
                 <BlankCard>

@@ -13,12 +13,12 @@ import { uniqueId } from "lodash";
 const Menuitems = [
   {
     navlabel: true,
-    subheader: "Home",
+    subheader: "خانه",
   },
 
   {
     id: uniqueId(),
-    title: "Dashboard",
+    title: "داشبورد",
     icon: IconLayoutDashboard,
     href: "/",
   },
@@ -40,17 +40,17 @@ const Menuitems = [
   },
   {
     navlabel: true,
-    subheader: "Auth",
+    subheader: "احراز هویت",
   },
   {
     id: uniqueId(),
-    title: "Login",
+    title: "ورود",
     icon: IconLogin,
     href: "/authentication/login",
   },
   {
     id: uniqueId(),
-    title: "Register",
+    title: "ثبت نام",
     icon: IconUserPlus,
     href: "/authentication/register",
   },

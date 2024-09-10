@@ -21,6 +21,7 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
     background: theme.palette.background.paper,
     justifyContent: 'center',
     backdropFilter: 'blur(4px)',
+    direction:'rtl',
     [theme.breakpoints.up('lg')]: {
       minHeight: '70px',
     },

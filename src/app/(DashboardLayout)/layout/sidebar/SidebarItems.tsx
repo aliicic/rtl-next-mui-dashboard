@@ -11,7 +11,7 @@ const SidebarItems = ({ toggleMobileSidebar }: any) => {
 
   return (
     <Box sx={{ px: 3 , direction:'rtl' }}>
-      <List sx={{ pt: 0 , direction:'rtl'  }} className="sidebarNav" component="div">
+      <List sx={{ pt: 0  }} className="sidebarNav" component="div">
         {Menuitems.map((item) => {
           // {/********SubHeader**********/}
           if (item.subheader) {

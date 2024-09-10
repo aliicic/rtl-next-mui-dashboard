@@ -37,6 +37,7 @@ const MSidebar = ({
         sx={{
           width: sidebarWidth,
           flexShrink: 0,
+          direction:'rtl'
         }}
       >
         {/* ------------------------------------------- */}
@@ -80,7 +81,7 @@ const MSidebar = ({
                 {/* Sidebar Items */}
                 {/* ------------------------------------------- */}
                 <SidebarItems />
-                <Upgrade />
+                {/* <Upgrade /> */}
               </Box>
             </Sidebar >
           </Box>
@@ -99,6 +100,7 @@ const MSidebar = ({
         sx: {
           boxShadow: (theme) => theme.shadows[8],
           ...scrollbarStyles,
+          direction:'rtl' 
         },
       }}
     >
