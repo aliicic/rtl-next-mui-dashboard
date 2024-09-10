@@ -53,7 +53,7 @@ const Register2 = () => (
                   color="textSecondary"
                   mb={1}
                 >
-                  Your Social Campaigns
+                  فرم عضویت
                 </Typography>
               }
               subtitle={
@@ -68,7 +68,7 @@ const Register2 = () => (
                     variant="h6"
                     fontWeight="400"
                   >
-                    Already have an Account?
+                    قبلا ثبت نام کرده اید؟
                   </Typography>
                   <Typography
                     component={Link}
@@ -79,7 +79,7 @@ const Register2 = () => (
                       color: "primary.main",
                     }}
                   >
-                    Sign In
+                   ورود
                   </Typography>
                 </Stack>
               }

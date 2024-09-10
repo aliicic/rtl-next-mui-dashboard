@@ -23,20 +23,10 @@ const Menuitems = [
     href: "/",
   },
   {
-    navlabel: true,
-    subheader: "Utilities",
-  },
-  {
     id: uniqueId(),
-    title: "Typography",
-    icon: IconTypography,
-    href: "/utilities/typography",
-  },
-  {
-    id: uniqueId(),
-    title: "Shadow",
-    icon: IconCopy,
-    href: "/utilities/shadow",
+    title: "کاربران",
+    icon: IconLayoutDashboard,
+    href: "/",
   },
   {
     navlabel: true,
@@ -56,17 +46,33 @@ const Menuitems = [
   },
   {
     navlabel: true,
-    subheader: "Extra",
+    subheader: "جزئیات تم",
   },
   {
     id: uniqueId(),
-    title: "Icons",
-    icon: IconMoodHappy,
-    href: "/icons",
+    title: "فونت ها",
+    icon: IconTypography,
+    href: "/utilities/typography",
   },
   {
     id: uniqueId(),
-    title: "Sample Page",
+    title: "سایه ها",
+    icon: IconCopy,
+    href: "/utilities/shadow",
+  },
+  {
+    navlabel: true,
+    subheader: "موارد دیگر",
+  },
+  // {
+  //   id: uniqueId(),
+  //   title: "Icons",
+  //   icon: IconMoodHappy,
+  //   href: "/icons",
+  // },
+  {
+    id: uniqueId(),
+    title: "نمونه صفحه",
     icon: IconAperture,
     href: "/sample-page",
   },
