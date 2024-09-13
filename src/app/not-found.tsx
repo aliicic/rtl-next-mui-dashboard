@@ -1,4 +1,10 @@
+"use client";
+
+import useMoveBack from "../hooks/useMoveBack";
+
 const NotFound = () => {
+  const moveBack = useMoveBack();
+
   return (
     <div
       style={{
@@ -8,7 +14,10 @@ const NotFound = () => {
         height: "100vh",
       }}
     >
-      <h1>Not Found 404</h1>
+      <div>
+        <h1>Not Found 404</h1>
+        <h2 onClick={moveBack}> back . . . </h2>
+      </div>
     </div>
   );
 };
