@@ -70,24 +70,24 @@ const baselightTheme = createTheme({
     divider: "#e5eaef",
   },
   typography: {
-    fontFamily: 'irancell',
+    fontFamily: 'var(--font-irancell)' ,
     h1: {
       fontWeight: 600,
       fontSize: "2.25rem",
       lineHeight: "2.75rem",
-      fontFamily: 'irancell',
+      fontFamily: 'var(--font-irancell)',
     },
     h2: {
       fontWeight: 600,
       fontSize: "1.875rem",
       lineHeight: "2.25rem",
-      fontFamily: 'irancell',
+      fontFamily: 'var(--font-irancell)',
     },
     h3: {
       fontWeight: 600,
       fontSize: "1.5rem",
       lineHeight: "1.75rem",
-      fontFamily: 'irancell',
+      fontFamily: 'var(--font-irancell)',
     },
     h4: {
       fontWeight: 600,
