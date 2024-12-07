@@ -62,7 +62,7 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
   }));
 
   return (
-    <List component="div" disablePadding key={item.id} dir="rtl" >
+    <List component="div" disablePadding key={item.id} dir="rtl">
       <ListItemStyled>
         <ListItemButton
           component={Link}

@@ -17,7 +17,7 @@ const baselightTheme = createTheme({
   direction: "rtl",
   palette: {
     primary: {
-      main: "#5D87FF",
+      main: "#C40452",
       light: "#ECF2FF",
       dark: "#4570EA",
     },
